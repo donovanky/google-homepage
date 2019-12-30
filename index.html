@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="viewport">
+            <div id="header">
+                <div id="headerleft">
+                    <a>About</a>
+                    <a>Store</a>
+                </div>
+                <div id="headerright">
+                    <a>Gmail</a>
+                    <a class="g_img">Images</a>
+                    <a class="g_apps" title="Google Apps" role="button"></a>
+                    <div id="header_signin_container">
+                        <div id="header_signin_button">
+                            <a id="header_signin" target="_top">Sign in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main_container">
+                <center>
+                    <div id="goog_img_container">
+                        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="goog_img" alt="Google">
+                    </div>
+                </center>
+                <div id="searchbar_container">
+                    <div id="searchbar">
+                        <form id="goog_search">
+                            <div id="searchbar_border">
+                                <div id="searchbar_border_flex">
+                                    <div id="searchbar_icon_section">
+                                        <div class="searchbar_icon_container">
+                                            <span class="searchbar_icon_box">
+                                                <svg focusable="false" viewBox ="0 0 24 24">
+                                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div id="searchbar_input_container">
+                                        <div class="searchbar_input_section"></div>
+                                        <input class="searchbar_input" maxlength="2048" type="text" autocapitalize="false" role="combobox" spellcheck="false" title="Search" value="">
+                                    </div>
+                                    <div id="searchbar_tts_container">
+                                        <div id="searchbar_tts_section">
+                                            <span id="searchbar_tts"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="form_button_container">
+                                <center>
+                                    <input id="form_button_search" value="Google Search" aria-label="Google Search" type="submit">
+                                    <input id="form_button_lucky" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" type="submit">
+                                </center>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="footer">
+                        <div id="footer_bar">
+                            <span id="footer_text_left">
+                                <a class="ftext">Advertising</a>
+                                <a class="ftext">Business</a>
+                                <a class="ftext">How Search works</a>
+                            </span>
+                            <span id="footer_text_right">
+                                <a class="ftext">Privacy</a>
+                                <a class="ftext">Terms</a>
+                                <a class="ftext">Settings</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
