@@ -1,0 +1,321 @@
+body {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#viewport {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+#header {
+    top: 16px;
+    position: relative;
+    font-size: 13px;
+}
+
+#headerleft {
+    position: absolute;
+    box-sizing: content-box;
+}
+
+#headerleft a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    vertical-align: middle;
+}
+
+#headerright {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 220px;
+}
+
+.g_img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.g_apps {
+    color: #000;
+    cursor: pointer;
+    background-position: -132px -38px;
+    background-image: url("https://web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-size: 528px 68px;
+    opacity: 0.85;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+
+#header_signin_container {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#header_signin_button {
+    position: relative;
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#header_signin {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+}
+
+#main_container {
+    padding-bottom: 35px;
+}
+
+#goog_img_container {
+    margin-top: 47px;
+    height: 233px;
+}
+
+.goog_img {
+    padding-top: 109px;
+    width: "272";
+    height: "92";
+}
+
+#searchbar_container {
+    top: 289px;
+    position: absolute;
+    min-width: 980px;
+    z-index: 103;
+    margin-top: 0px;
+    width: 100%;
+    height: 64px;
+}
+
+#searchbar {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 833px;
+}
+
+#goog_search {
+    margin: 0 auto;
+    padding-top: 6px;
+    position: relative;
+    width: 484px;
+}
+
+#searchbar_border {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    z-index: 3;
+}
+
+#searchbar_border_flex {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+#searchbar_icon_section {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+#searchbar_icon_container {
+    margin: auto;
+}
+
+.searchbar_icon_box {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+#searchbar_input_container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.searchbar_input_section{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
+
+.searchbar_input {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.85);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
+
+#searchbar_tts_container {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+#searchbar_tts_section { 
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+#searchbar_tts {
+    background: url("https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png") 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+}
+
+#form_buttons_container {
+    height: 70px;
+    padding-top: 18px;
+    position: absolute;
+    top: 53px;
+    width: 487px;
+    z-index: 0;
+}
+
+#form_button_search {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#form_button_lucky {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#footer {
+    display: block;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 980px;
+}
+
+#footer_bar {
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -27px;
+}
+
+#footer_text_left {
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+.ftext {
+    display: inline-block;
+    color: #5f6368;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 27px;
+    margin: 0 !important;
+}
+
+#footer_text_right {
+    margin-right: 30px;
+    float: right;
+    white-space: nowrap;
+}
